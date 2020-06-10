@@ -1,0 +1,159 @@
+[1591792654.832][INFO]: Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 41297
+[1591792654.832][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1591792655.435][INFO]: [f92fd732edca161684a3df7128a5781b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1591792655.437][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1591792655.438][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1591792655.444][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1591792655.444][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\MANJUN~1\AppData\Local\Temp\scoped_dir3316_688700162\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\MANJUN~1\AppData\Local\Temp\scoped_dir3316_1490808031" data:,
+[1591792656.043][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1591792658.054][INFO]: [f92fd732edca161684a3df7128a5781b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "83.0.4103.97",
+      "chrome": {
+         "chromedriverVersion": "83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})",
+         "userDataDir": "C:\\Users\\MANJUN~1\\AppData\\Local\\Temp\\scoped_dir3316_1490808031"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52493"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "f92fd732edca161684a3df7128a5781b"
+}
+[1591792658.103][INFO]: [f92fd732edca161684a3df7128a5781b] COMMAND MaximizeWindow {
+
+}
+[1591792658.103][INFO]: Waiting for pending navigations...
+[1591792658.105][INFO]: Done waiting for pending navigations. Status: ok
+[1591792658.105][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1591792660.226][INFO]: Waiting for pending navigations...
+[1591792660.228][INFO]: Done waiting for pending navigations. Status: ok
+[1591792660.228][INFO]: [f92fd732edca161684a3df7128a5781b] RESPONSE MaximizeWindow {
+   "height": 694,
+   "width": 1294,
+   "x": -7,
+   "y": -7
+}
+[1591792660.239][INFO]: [f92fd732edca161684a3df7128a5781b] COMMAND Navigate {
+   "url": "http://www.google.com"
+}
+[1591792660.239][INFO]: Waiting for pending navigations...
+[1591792660.240][INFO]: Done waiting for pending navigations. Status: ok
+[1591792660.787][INFO]: Waiting for pending navigations...
+[1591792661.241][INFO]: Done waiting for pending navigations. Status: ok
+[1591792661.241][INFO]: [f92fd732edca161684a3df7128a5781b] RESPONSE Navigate
+[1591792661.247][INFO]: [f92fd732edca161684a3df7128a5781b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1591792661.247][INFO]: Waiting for pending navigations...
+[1591792661.247][INFO]: Done waiting for pending navigations. Status: ok
+[1591792661.256][INFO]: Waiting for pending navigations...
+[1591792661.256][INFO]: Done waiting for pending navigations. Status: ok
+[1591792661.256][INFO]: [f92fd732edca161684a3df7128a5781b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d96b75db-5c22-4e4b-8a1e-1330d16ae967"
+}
+[1591792661.271][INFO]: [f92fd732edca161684a3df7128a5781b] COMMAND TypeElement {
+   "id": "d96b75db-5c22-4e4b-8a1e-1330d16ae967",
+   "text": "Selenium",
+   "value": [ "S", "e", "l", "e", "n", "i", "u", "m", "" ]
+}
+[1591792661.271][INFO]: Waiting for pending navigations...
+[1591792661.271][INFO]: Done waiting for pending navigations. Status: ok
+[1591792661.394][INFO]: Waiting for pending navigations...
+[1591792663.057][INFO]: Done waiting for pending navigations. Status: ok
+[1591792663.057][INFO]: [f92fd732edca161684a3df7128a5781b] RESPONSE TypeElement
